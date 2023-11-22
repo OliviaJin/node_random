@@ -8,7 +8,7 @@ const port = process.env.PORT || 3001
 app.get('/', (req, res) => {
   const randamUniqueString = (uniqueString)
 
-  res.send(uniqueString)
+  res.send(uniqueString())
 })
 
 app.listen(port, () => {
