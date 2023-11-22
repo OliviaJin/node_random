@@ -15,5 +15,6 @@
     "nodemon": "^3.0.1",
     "random-cat-img": "^1.1.4",
     "unique-string": "^3.0.0"
-  }
+  },
+  "type": "module"
 }
